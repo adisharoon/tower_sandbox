@@ -1,6 +1,7 @@
 ---
-- name: Connection test
+- name: Local IP info
   hosts: tower_demo
+  connection: local
   gather_facts: no
   tasks:
     - name: Get my public IP
