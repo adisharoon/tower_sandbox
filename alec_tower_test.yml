@@ -1,0 +1,7 @@
+---
+- name: Connection test
+  hosts: tower_demo
+  gather_facts: no
+  tasks:
+    - name: ping
+      ping:

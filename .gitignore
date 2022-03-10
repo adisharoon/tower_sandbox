@@ -1,0 +1,4 @@
+extra-vars.json
+test.yml
+*.retry
+*.pyc
