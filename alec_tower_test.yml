@@ -4,7 +4,7 @@
   gather_facts: no
   tasks:
     - name: Get my public IP
-      community.general.ipify_facts:
+      ipify_facts:
     - name: show ip
       debug:
         msg: "{{ ipify_public_ip }}"
